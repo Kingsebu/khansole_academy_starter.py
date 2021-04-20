@@ -12,8 +12,10 @@ while count < 3:
     num2 = random.randint(10, 99)
     sum = num1 + num2
 
-#recieving input from user. Where 3 right responses are entered in a row the program ends with congratulatory message
-#where a wrong answer is provided, the program will continue.
+'''
+recieving input from user. Where 3 right responses are entered in a row the program ends with congratulatory message
+where a wrong answer is provided, the program will continue.
+'''
     response = int(input(f'What is {num1} + {num2}? '))
     if response == sum:
         count += 1
